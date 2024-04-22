@@ -26,3 +26,4 @@ this according to your needs, for example, ResponseEntity.created() for POST req
 ResponseEntity.badRequest() for invalid requests, etc.
 15) Run the  following command to send a post request on terminal:-
     curl -X POST http://localhost:8080/api/post -H "Content-Type: application/json" -d '{"message":"Hello, Spring Boot!"}'
+16) Run 'maven install' command to build a jar file
