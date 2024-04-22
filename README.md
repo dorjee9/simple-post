@@ -16,7 +16,7 @@
 8) create method contextLoads and define method annotation @Test
 9) run the reload project maven command
 10) create model class namely PostData with getter & setter methods for variable message without final.
-11) create a controller class and define annotation @RestController & @RequestMapping("api")
+11) create a controller class and define annotation @RestController & @RequestMapping("api"). Note: add spring-boot-starter-web dependency in pom.xml
 12) create method for post message and define method annotation @PostMapping("/post")
 13) add parameter for PostData data type and define parameter annotation @RequestBody
 14) to return output as response body from method. I've used ResponseEntity to return a 
